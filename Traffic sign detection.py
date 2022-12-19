@@ -4,7 +4,6 @@ import os
 
 !pip install opendatasets
 import opendatasets as od
-# {"username":"mananmehta83","key":"fc88a65e709fb15d8ed3dac730ea5f10"}
 od.download("https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification")
 
 labels=pd.read_csv("/content/traffic-sign-dataset-classification/labels.csv")
